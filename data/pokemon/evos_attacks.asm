@@ -3098,6 +3098,12 @@ BomseelEvosAttacks:
 DelibirdEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PRESENT
+	db 1, POUND
+	db 6, GROWL
+	db 13, POWDER_SNOW
+	db 19, DOUBLESLAP
+	db 24, ENCORE
+	db 35, BLIZZARD
 	db 0 ; no more level-up moves
 
 KotoraEvosAttacks:

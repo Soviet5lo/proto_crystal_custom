@@ -1,5 +1,5 @@
 	db "TEMP@" ; species name
-	dw 1, 1 ; height, weight
+	dw 106, 333 ; height, weight
 
 	db   "page 1"
 	

@@ -1,6 +1,6 @@
 	db TURBANN ; 204
 
-	db  50,  95,  180,  30, 125,  45
+	db  50,  85,  55,  70, 105, 160
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, PSYCHIC; type

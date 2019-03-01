@@ -1,6 +1,6 @@
 	db GELANLA ; 168
 
-	db  100,  100,  125,  50, 110,  50
+	db  85, 90,  80,  65,  100, 80
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GRASS ; type

@@ -1,6 +1,6 @@
 	db LIKK ; 182
 
-	db  110,  85,  95,  50,  80, 95
+	db  110, 90,  85,  45,  90, 80
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

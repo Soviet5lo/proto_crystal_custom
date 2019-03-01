@@ -1,6 +1,6 @@
 	db TANGEL ; 167
 
-	db  50,  35,  85,  40, 80,  30
+	db  35, 40,  50,  30,  45,  25
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GRASS ; type

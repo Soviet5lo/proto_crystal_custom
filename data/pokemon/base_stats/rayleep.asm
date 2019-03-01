@@ -1,6 +1,6 @@
 	db RAYLEEP ; 226
 
-	db  65,  40,  70,  70,  80, 140
+	db  50, 105, 50,  95,  105, 50
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type

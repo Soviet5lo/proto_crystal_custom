@@ -624,6 +624,8 @@ ParasectEvosAttacks:
 	db 13, POISONPOWDER
 	db 19, LEECH_LIFE
 	db 28, SPORE
+	db 30, NIGHTMARE ; 5lo - custom to fit new grass/ghost
+	db 33, DREAM_EATER ; 5lo - custom to fit new grass/ghost
 	db 37, SLASH
 	db 46, GROWTH
 	db 55, GIGA_DRAIN

@@ -3,7 +3,7 @@
 	db  84,  84,  84,  84, 84,  84
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, STEEL ; type
 	db 20 ; catch rate
 	db 255 ; base exp
 	db NO_ITEM, NO_ITEM ; items.

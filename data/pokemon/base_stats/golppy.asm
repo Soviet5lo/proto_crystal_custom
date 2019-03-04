@@ -1,6 +1,6 @@
 	db GOLPPY ; 178
 
-	db  35,  53,  50,  51, 30,  40
+	db  25,  45,  35,  45, 15,  30
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

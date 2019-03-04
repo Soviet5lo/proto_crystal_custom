@@ -1,6 +1,6 @@
 	db NUMPUFF ; 171
 
-	db  75,  115,  100,  110, 70,  65
+	db  70, 115, 80,  90,  65,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

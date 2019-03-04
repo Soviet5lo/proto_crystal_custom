@@ -1,6 +1,6 @@
 	db PUDDI ; 182
 
-	db  45,  60,  27,  50,  60, 30
+	db  25,  40,  20,  30,  40, 25
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type

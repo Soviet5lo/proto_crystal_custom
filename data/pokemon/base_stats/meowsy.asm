@@ -1,6 +1,6 @@
 	db MEOWSY ; 188
 
-	db  30,  35,  25,  70, 30,  30
+	db  30,  30,  20,  50, 25,  25
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

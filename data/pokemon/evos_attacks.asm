@@ -2136,55 +2136,61 @@ BlossomiteEvosAttacks:
 FlambearEvosAttacks:
 	db EVOLVE_LEVEL, 16, VOLBEAR
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 12, EMBER
-	db 19, QUICK_ATTACK
+	db 19, BITE
+	db 23, REST
 	db 27, FLAME_WHEEL
-	db 36, SWIFT
+	db 33, SCARY_FACE
+	db 36, FURY_SWIPES
 	db 46, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 VolbearEvosAttacks:
 	db EVOLVE_LEVEL, 32, DYNABEAR
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, LEER
 	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
 	db 12, EMBER
-	db 17, QUICK_ATTACK
-	db 22, FLAME_WHEEL
-	db 29, SWIFT
-	db 38, FLAMETHROWER
+	db 22, BITE
+	db 26, REST
+	db 31, FLAME_WHEEL
+	db 36, SCARY_FACE
+	db 39, FURY_SWIPES
+	db 47, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 DynabearEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, LEER
 	db 1, SMOKESCREEN
 	db 1, EMBER
 	db 6, SMOKESCREEN
 	db 12, EMBER
-	db 21, QUICK_ATTACK
+	db 22, BITE
+	db 26, REST
 	db 31, FLAME_WHEEL
-	db 45, SWIFT
-	db 60, FLAMETHROWER
+	db 37, SCARY_FACE
+	db 41, FURY_SWIPES
+	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 CruzEvosAttacks:
 	db EVOLVE_LEVEL, 16, AQUA
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, LEER
-	db 7, RAGE
-	db 13, BUBBLE
-	db 20, BITE
-	db 27, BUBBLEBEAM
-	db 35, BODY_SLAM
-	db 43, SCREECH
+	db 1, GROWL
+	db 8, WATER_GUN
+	db 13, BITE
+	db 20, MIST
+	db 27, AURORA_BEAM
+	db 35, SAFEGUARD
+	db 43, BODY_SLAM
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2192,29 +2198,28 @@ AquaEvosAttacks:
 	db EVOLVE_LEVEL, 32, AQUARIA
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, LEER
-	db 1, RAGE
-	db 7, RAGE
-	db 13, BUBBLE
-	db 21, BITE
-	db 28, BUBBLEBEAM
-	db 37, BODY_SLAM
-	db 45, SCREECH
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 13, BITE
+	db 21, MIST
+	db 28, AURORA_BEAM
+	db 37, SAFEGUARD
+	db 45, BODY_SLAM
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 AquariaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, LEER
-	db 1, RAGE
+	db 1, GROWL
 	db 1, WATER_GUN
-	db 7, RAGE
-	db 13, BUBBLE
-	db 21, BITE
-	db 28, BUBBLEBEAM
-	db 38, BODY_SLAM
-	db 47, SCREECH
+	db 1, BITE
+	db 7, WATER_GUN
+	db 13, BITE
+	db 21, MIST
+	db 28, AURORA_BEAM
+	db 38, SAFEGUARD
+	db 47, BODY_SLAM
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
 

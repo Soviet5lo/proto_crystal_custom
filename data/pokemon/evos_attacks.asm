@@ -2848,16 +2848,14 @@ UmbreonEvosAttacks:
 
 TurbannEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, WITHDRAW
-	db 9, SUPERSONIC
-	db 17, AURORA_BEAM
-	db 17, PSYBEAM
-	db 25, PROTECT
-	db 33, AMNESIA
-	db 41, CLAMP
-	db 46, ICE_BEAM
-	db 46, PSYCHIC
+	db 1, AMNESIA
+	db 1, CONFUSION
+	db 1, PSYBEAM
+	db 1, PROTECT
+if _CRYSTAL
+	db 33, PSYBEAM
+endc
+	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 GrimeyEvosAttacks:

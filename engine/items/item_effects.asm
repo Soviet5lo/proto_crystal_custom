@@ -117,7 +117,7 @@ ItemEffects: ; e73c
 	dw NoEffect            ; ITEM_64
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
-	dw NoEffect            ; SLOWPOKETAIL
+	dw EvoStoneEffect      ; SLOWPOKETAIL - for Shellder -> Turbaan
 	dw NoEffect            ; PINK_BOW
 	dw NoEffect            ; STICK
 	dw NoEffect            ; SMOKE_BALL

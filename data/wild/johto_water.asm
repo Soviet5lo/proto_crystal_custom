@@ -30,13 +30,13 @@ JohtoWaterWildMons: ; 0x2b11d
 	db 2 percent ; encounter rate
 	db 15, SLOWPOKE
 	db 20, SLOWPOKE
-	db 10, SUNMOLA
+	db 10, SHELLDER
 
 	map_id SLOWPOKE_WELL_B2F
 	db 2 percent ; encounter rate
 	db 15, SLOWPOKE
-	db 20, SLOWPOKE
 	db 20, SLOWBRO
+	db 20, TURBANN
 
 	map_id ILEX_FOREST
 	db 2 percent ; encounter rate

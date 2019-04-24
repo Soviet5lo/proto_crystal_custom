@@ -2841,12 +2841,11 @@ UmbreonEvosAttacks:
 	db 8, SAND_ATTACK
 	db 16, PURSUIT
 	db 23, QUICK_ATTACK
-	db 30, CONFUSE_RAY
-	db 33, ACID_ARMOR
-	db 36, FAINT_ATTACK
-	db 42, MEAN_LOOK
-	db 47, SCREECH
-	db 52, MOONLIGHT
+	db 30, ACID
+	db 36, ACID_ARMOR
+	db 42, SLUDGE
+	db 47, SMOKESCREEN
+	db 52, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 TurbannEvosAttacks:

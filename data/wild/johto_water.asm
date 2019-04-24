@@ -214,7 +214,7 @@ JohtoWaterWildMons: ; 0x2b11d
 
 	map_id LAKE_OF_RAGE
 	db 6 percent ; encounter rate
-	db 15, MAGIKARP
+	db 15, ANCHORAGE
 	db 10, MAGIKARP
 	db 15, GYARADOS
 

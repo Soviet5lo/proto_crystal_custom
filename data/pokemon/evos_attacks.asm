@@ -2249,10 +2249,12 @@ HoohooEvosAttacks:
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
-	db 25, REFLECT
-	db 33, TAKE_DOWN
-	db 37, MOONLIGHT
-	db 41, CONFUSION
+	db 20, WING_ATTACK
+	db 25, SCREECH
+	db 33, MOONLIGHT
+	db 37, TAKE_DOWN
+	db 41, MEAN_LOOK
+	db 46, CONFUSION
 	db 57, DREAM_EATER
 	db 0 ; no more level-up moves
 

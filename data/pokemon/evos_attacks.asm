@@ -2235,7 +2235,6 @@ HoothootEvosAttacks:
 	db 16, HYPNOSIS
 	db 22, REFLECT
 	db 28, TAKE_DOWN
-	db 32, MOONLIGHT
 	db 34, CONFUSION
 	db 48, DREAM_EATER
 	db 0 ; no more level-up moves

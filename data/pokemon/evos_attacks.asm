@@ -3160,21 +3160,31 @@ KurstrawEvosAttacks:
 	db EVOLVE_LEVEL, 1, PANGSHI
 	db 0 ; no more evolutions
 	db 1, CURSE
+	db 5, LEECH_LIFE
+	db 10, DISABLE
+	db 15, DESTINY_BOND
+	db 20, SPITE
+	db 25, CONFUSION
+	db 30, NIGHT_SHADE
+	db 35, SUBSTITUTE
+	db 40, PSYCHIC
+	db 45, PAIN_SPLIT
+	db 50, SHADOW_BALL ; instead of learning curse like in spaceworld
 	db 0 ; no more level-up moves
 
 PangshiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CURSE
-	db 7, GROWL
-	db 11, LICK
-	db 18, TRIPLE_KICK
-	db 24, MEAN_LOOK
-	db 28, CURSE
-	db 32, SUBSTITUTE
-	db 35, JUMP_KICK
-	db 38, AGILITY
-	db 44, SHADOW_BALL
-	db 49, HI_JUMP_KICK
+	db 1, SPITE ; No longer has access to Curse upon evolution
+	db 5, LEECH_LIFE
+	db 10, DISABLE
+	db 15, CONFUSE_RAY ; moved from level 50 to replace Splash
+	db 20, MEAN_LOOK ; Spite moved to level 1
+	db 25, STOMP
+	db 30, NIGHT_SHADE
+	db 35, SUBSTITUTE
+	db 40, BODY_SLAM
+	db 45, PAIN_SPLIT
+	db 50, TAKE_DOWN ; instead of learning confuse ray here
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:

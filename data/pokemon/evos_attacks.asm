@@ -3260,26 +3260,29 @@ HoundoomEvosAttacks:
 WolfmanEvosAttacks:
 	db EVOLVE_LEVEL, 25, WARWOLF
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, TAIL_WHIP
 	db 10, POWDER_SNOW
-	db 13, ENDURE
-	db 21, TAKE_DOWN
-	db 29, ICE_PUNCH
-	db 33, REVERSAL
+	db 13, SAFEGUARD
+	db 21, FURY_SWIPES
+	db 25, ICE_PUNCH
+	db 29, SLASH
+	db 33, SCREECH
+	db 40, CONFUSE_RAY
 	db 46, BLIZZARD
 	db 0 ; no more level-up moves
 
 WarwolfEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCRATCH
 	db 1, TAIL_WHIP
 	db 10, POWDER_SNOW
-	db 13, ENDURE
-	db 21, TAKE_DOWN
-	db 25, SLASH
-	db 30, ICE_PUNCH
-	db 35, REVERSAL
+	db 13, SAFEGUARD
+	db 21, FURY_SWIPES
+	db 25, ICE_PUNCH
+	db 30, SLASH
+	db 35, SCREECH
+	db 41, CONFUSE_RAY
 	db 49, BLIZZARD
 	db 0 ; no more level-up moves
 

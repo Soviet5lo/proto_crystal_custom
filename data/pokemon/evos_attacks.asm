@@ -3184,7 +3184,7 @@ PangshiEvosAttacks:
 	db 35, SUBSTITUTE
 	db 40, BODY_SLAM
 	db 45, PAIN_SPLIT
-	db 50, TAKE_DOWN ; instead of learning confuse ray here
+	db 50, JUMP_KICK ; instead of learning confuse ray here
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:

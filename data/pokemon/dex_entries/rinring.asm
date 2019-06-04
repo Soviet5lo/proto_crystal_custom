@@ -1,7 +1,10 @@
-	db "TEMP@" ; species name
-	dw 1, 1 ; height, weight
+	db "CHIME@" ; species name
+	dw 98, 85 ; height, weight
 
-	db   "page 1"
-	
-	page "page 2"
-	db "@"
+	db   "The sound of the"
+	next "chime on its tail"
+	next "puts its prey into"
+
+	page "a state of trance,"
+	next "giving RINRING a"
+	next "chance to pounce.@"

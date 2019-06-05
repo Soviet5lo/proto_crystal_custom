@@ -2341,14 +2341,14 @@ GelanlaEvosAttacks:
 
 RayleepEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, BUBBLE
-	db 10, SUPERSONIC
-	db 18, BUBBLEBEAM
-	db 25, TAKE_DOWN
-	db 32, AGILITY
-	db 40, WING_ATTACK
-	db 49, CONFUSE_RAY
+	db 1, POUND
+	db 1, WATER_GUN
+	db 10, FLAIL
+	db 15, CONFUSE_RAY
+	db 21, THRASH
+	db 28, SWIFT
+	db 36, SLAM
+	db 45, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:

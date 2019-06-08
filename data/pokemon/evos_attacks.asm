@@ -2262,11 +2262,15 @@ MareepEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
+	db 6, TAIL_WHIP
 	db 9, THUNDERSHOCK
+	db 13, HYPNOSIS
 	db 16, THUNDER_WAVE
+	db 20, SWIFT
 	db 23, COTTON_SPORE
+	db 27, SCREECH
 	db 30, LIGHT_SCREEN
-	db 37, THUNDER
+	db 37, THUNDERBOLT
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -2274,26 +2278,31 @@ FlaaffyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
+	db 6, TAIL_WHIP
 	db 9, THUNDERSHOCK
+	db 13, HYPNOSIS
 	db 18, THUNDER_WAVE
+	db 22, SWIFT
 	db 27, COTTON_SPORE
+	db 30, SCREECH
 	db 36, LIGHT_SCREEN
-	db 45, THUNDER
+	db 42, THUNDER
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 1, THUNDER_WAVE
+	db 6, TAIL_WHIP
 	db 9, THUNDERSHOCK
+	db 13, HYPNOSIS
 	db 18, THUNDER_WAVE
+	db 22, SWIFT
 	db 27, COTTON_SPORE
-	db 30, THUNDERPUNCH
+	db 32, THUNDERPUNCH
+	db 37, SCREECH
 	db 42, LIGHT_SCREEN
-	db 57, THUNDER
+	db 50, THUNDER
 	db 0 ; no more level-up moves
 
 TrifoxEvosAttacks:

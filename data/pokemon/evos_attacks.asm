@@ -3096,18 +3096,15 @@ BomseelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP
-	db 8, EMBER
-	db 8, WATER_GUN
-	db 14, SMOKESCREEN
-	db 18, SCARY_FACE
-	db 23, FLAME_WHEEL
-	db 23, BUBBLEBEAM
-	db 29, AGILITY
-	db 37, RAIN_DANCE
-	db 37, SUNNY_DAY
-	db 45, FLAMETHROWER
-	db 53, HYDRO_PUMP
-	db 53, FIRE_BLAST
+	db 7, SMOKESCREEN
+	db 10, WATER GUN
+	db 14, SMOG
+	db 18, BARRAGE
+	db 25, FLAME_WHEEL
+	db 32, BUBBLEBEAM
+	db 38, FLAMETHROWER
+	db 43, TAKE_DOWN
+	db 49, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 DelibirdEvosAttacks:

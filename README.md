@@ -1,44 +1,18 @@
-# Pokémon Crystal [![Build Status][travis-badge]][travis]
+# Pokemon Proto Crystal Custom
 
-This is a disassembly of Pokémon Crystal.
+This is a modification of [Pokemon Spaceworld Crystal] (https://github.com/tshadowknight/proto_crystal) by TSK (tshadowknight), made from the [disassembly of Pokemon Crystal] (https://github.com/pret/pokecrystal) by pret.
 
-It builds the following ROMs:
+## Changes from Spaceworld Crystal
+- Base stats for some spaceworld pokemon have been changed (Belmitt, Gelanla, Likk, Lykwyse, Rayleep, Tangel, Turbann, Twinz, Golppy, Grimey, Meowsy, Numpuff, Puddi, Trifox)
+- Movesets for some spaceworld pokemon have been changed to be more similar to their Spaceworld movesets.
+- Turbann is now an alternate evolution of Shellder: it evolves via Slowpoketail (used as if it were a evolutionary stone).
+- A few wild pokemon location changes.
+- Some type changes (Lykwyse Normal/Steel, Parasect Ghost/Grass, Plux Bug/Dark, Turbann Water/Psychic)
 
-- Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
-- Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc `sha1: f2f52230b536214ef7c9924f483392993e226cfb`
-
-To set up the repository, see [INSTALL.md](INSTALL.md).
-
-## See also
-
-- [**FAQ**](FAQ.md)
-- [**Documentation**](docs/)
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- **Discord:** [pret][discord]
-- **IRC:** [freenode#pret][irc]
-
-Other disassembly projects:
-
-- [**Pokémon Red/Blue**][pokered]
-- [**Pokémon Yellow**][pokeyellow]
-- [**Pokémon Gold**][pokegold]
-- [**Pokémon Pinball**][pokepinball]
-- [**Pokémon TCG**][poketcg]
-- [**Pokémon Ruby**][pokeruby]
-- [**Pokémon Fire Red**][pokefirered]
-- [**Pokémon Emerald**][pokeemerald]
-
-[pokered]: https://github.com/pret/pokered
-[pokeyellow]: https://github.com/pret/pokeyellow
-[pokegold]: https://github.com/pret/pokegold
-[pokepinball]: https://github.com/pret/pokepinball
-[poketcg]: https://github.com/pret/poketcg
-[pokeruby]: https://github.com/pret/pokeruby
-[pokefirered]: https://github.com/pret/pokefirered
-[pokeemerald]: https://github.com/pret/pokeemerald
-[wiki]: https://github.com/pret/pokecrystal/wiki
-[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[discord]: https://discord.gg/cJxDDVP
-[irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
-[travis]: https://travis-ci.org/pret/pokecrystal
-[travis-badge]: https://travis-ci.org/pret/pokecrystal.svg?branch=master
+## Changes from vanilla Crystal (these are also found in Spaceworld Crystal)
+- All pokemon and sprites are replaced with the ones found in the 1997 Spaceworld demo of Pokemon Gold.
+- New cries and pokedex info for the Spaceworld Pokemon.
+- New base stats and movesets for the Spaceworld Pokemon.
+- Make all of the Spaceworld Pokemon available in the wild.
+- Update trainer rosters to utilize the Spaceworld Pokemon
+- Update events where needed (Sudowoodo -> Belmitt, Shuckle -> Snubull)

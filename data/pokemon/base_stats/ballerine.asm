@@ -1,6 +1,6 @@
 	db BALLERINE ; 182
 
-	db  20,  25,  45,  60,  70, 90
+	db  20,  25,  30,  35,  40, 50
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

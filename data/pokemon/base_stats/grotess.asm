@@ -1,6 +1,6 @@
 	db GROTESS ; 181
 
-	db  110,  130,  90,  70, 50,  90
+	db  90, 120,  90,  60,  70,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, STEEL ; type

@@ -1,6 +1,6 @@
 	db SUNMOLA ; 180
 
-	db  65,  80,  40,  80, 40,  40
+	db  60,  50,  70,  30,  40,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

@@ -1,6 +1,6 @@
 	db ANCHORAGE ; 181
 
-	db  90,  110,  50,  110, 55,  50
+	db  75,  90,  80,  70,  50,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, STEEL ; type

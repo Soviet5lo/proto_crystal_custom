@@ -2497,7 +2497,7 @@ SunmolaEvosAttacks:
 	db 3, GROWL
 	db 6, WATER_GUN
 	db 10, BITE
-	db 15, SCARY_FACE
+	db 15, ENDURE
 	db 21, BUBBLEBEAM
 	db 28, DOUBLE_EDGE
 	db 36, RAIN_DANCE
@@ -2511,8 +2511,8 @@ AnchorageEvosAttacks:
 	db 3, GROWL
 	db 6, WATER_GUN
 	db 10, BITE
-	db 15, SCARY_FACE
 	db 21, BUBBLEBEAM
+	db 25, SCARY_FACE
 	db 28, DOUBLE_EDGE
 	db 36, RAIN_DANCE
 	db 41, CRUNCH
@@ -2526,8 +2526,8 @@ GrotessEvosAttacks:
 	db 3, GROWL
 	db 6, WATER_GUN
 	db 10, BITE
-	db 15, SCARY_FACE
 	db 21, BUBBLEBEAM
+	db 25, SCARY_FACE
 	db 28, DOUBLE_EDGE
 	db 38, RAIN_DANCE
 	db 44, CRUNCH

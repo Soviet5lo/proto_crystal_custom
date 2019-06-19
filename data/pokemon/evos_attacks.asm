@@ -3125,13 +3125,13 @@ KotoraEvosAttacks:
 	db 4, GROWL
 	db 8, DEFENSE_CURL
 	db 13, THUNDERSHOCK
-	db 16, ROLLOUT
-	db 20, MAGNITUDE
+	db 16, BITE
+	db 20, ROAR
 	db 24, SPARK
 	db 31, AGILITY
 	db 38, BODY_SLAM
 	db 44, THUNDERBOLT
-	db 49, EARTHQUAKE
+	db 49, THUNDER
 	db 0 ; no more level-up moves
 
 RaitoraEvosAttacks:
@@ -3140,13 +3140,13 @@ RaitoraEvosAttacks:
 	db 4, GROWL
 	db 8, DEFENSE_CURL
 	db 13, THUNDERSHOCK
-	db 16, ROLLOUT
-	db 20, MAGNITUDE
+	db 16, BITE
+	db 20, ROAR
 	db 24, SPARK
 	db 31, AGILITY
 	db 42, BODY_SLAM
 	db 49, THUNDERBOLT
-	db 53, EARTHQUAKE
+	db 53, THUNDER
 	db 0 ; no more level-up moves
 
 MadameEvosAttacks:

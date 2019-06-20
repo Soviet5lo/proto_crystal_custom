@@ -1,6 +1,6 @@
 	db BELLBOYANT ; 188
 
-	db  75,  55,  75,  120, 100,  75
+	db  80,  70,  70, 95,  100,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, DARK ; type

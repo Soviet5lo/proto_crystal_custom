@@ -1,6 +1,6 @@
 	db BOMSEEL ; 182
 
-	db  90,  50,  80,  75,  115, 80
+	db  80,  85,  75,  70, 100,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FIRE ; type

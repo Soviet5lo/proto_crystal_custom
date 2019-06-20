@@ -2727,34 +2727,34 @@ MeowsyEvosAttacks:
 RinringEvosAttacks:
 	db EVOLVE_LEVEL, 28, BELLBOYANT
 	db 0 ; no more evolutions
-	db 1, HEAL_BELL
-	db 1, LEER
 	db 1, SCRATCH
-	db 7, ROAR
-	db 10, SWEET_KISS
-	db 13, CONFUSION
-	db 20, BITE
-	db 24, PURSUIT
-	db 27, LOVELY_KISS
-	db 35, PSYBEAM
-	db 39, MOONLIGHT
-	db 43, CRUNCH
+	db 4, GROWL
+	db 8, TAIL_WHIP
+	db 13, HEAL_BELL
+	db 19, FAINT_ATTACK
+	db 22, BITE
+	db 26, SCREECH
+	db 30, MOONLIGHT
+	db 34, LOVELY_KISS
+	db 34, SWEET_KISS
+	db 39, FURY_SWIPES
+	db 44, CRUNCH
 	db 0 ; no more level-up moves
 
 BellboyantEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HEAL_BELL
-	db 1, LEER
 	db 1, SCRATCH
-	db 7, ROAR
-	db 10, SWEET_KISS
-	db 13, CONFUSION
-	db 20, BITE
-	db 24, PURSUIT
-	db 29, LOVELY_KISS
-	db 35, PSYBEAM
-	db 40, MOONLIGHT
-	db 45, CRUNCH
+	db 4, GROWL
+	db 8, TAIL_WHIP
+	db 13, HEAL_BELL
+	db 19, FAINT_ATTACK
+	db 22, BITE
+	db 26, SCREECH
+	db 32, MOONLIGHT
+	db 37, LOVELY_KISS
+	db 37, SWEET_KISS
+	db 44, FURY_SWIPES
+	db 50, CRUNCH
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:

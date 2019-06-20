@@ -3097,7 +3097,7 @@ BomseelEvosAttacks:
 	db 1, TACKLE
 	db 4, TAIL_WHIP
 	db 7, SMOKESCREEN
-	db 10, WATER GUN
+	db 10, WATER_GUN
 	db 14, SMOG
 	db 18, BARRAGE
 	db 25, FLAME_WHEEL

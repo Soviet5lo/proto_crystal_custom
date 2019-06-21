@@ -3270,6 +3270,7 @@ WolfmanEvosAttacks:
 	db 1, TAIL_WHIP
 	db 10, POWDER_SNOW
 	db 13, SAFEGUARD
+	db 17, BITE
 	db 21, FURY_SWIPES
 	db 25, ICE_PUNCH
 	db 29, SLASH
@@ -3284,6 +3285,7 @@ WarwolfEvosAttacks:
 	db 1, TAIL_WHIP
 	db 10, POWDER_SNOW
 	db 13, SAFEGUARD
+	db 17, BITE
 	db 21, FURY_SWIPES
 	db 25, ICE_PUNCH
 	db 30, SLASH

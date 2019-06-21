@@ -3264,7 +3264,7 @@ HoundoomEvosAttacks:
 	db 0 ; no more level-up moves
 
 WolfmanEvosAttacks:
-	db EVOLVE_LEVEL, 25, WARWOLF
+	db EVOLVE_LEVEL, 35, WARWOLF
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP

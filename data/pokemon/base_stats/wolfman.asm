@@ -1,6 +1,6 @@
 	db WOLFMAN ; 182
 
-	db  75,  70,  65,  25,  45, 65
+	db  60,  80,  50,  50,  45,  25
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type

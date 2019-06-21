@@ -1,6 +1,6 @@
 	db WARWOLF ; 182
 
-	db  105,  100,  95,  35,  75, 95
+	db  90, 120,  80,  80,  70,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type

@@ -3332,6 +3332,7 @@ SteelixEvosAttacks:
 	db 36, SANDSTORM
 	db 40, SLAM
 	db 49, CRUNCH
+	db 62, IRON_TAIL
 	db 0 ; no more level-up moves
 
 KingdraEvosAttacks:

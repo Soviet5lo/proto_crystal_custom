@@ -1,6 +1,6 @@
 	db AQUARIA ; 160
 
-	db  85, 80, 75,  70,  115,  105
+	db  85,  75,  75,  90, 110, 100
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

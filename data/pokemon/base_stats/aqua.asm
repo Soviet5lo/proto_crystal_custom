@@ -1,6 +1,6 @@
 	db AQUA ; 159
 
-	db  65,  60,  60,  60,  85,  75
+	db  60,  62,  63,  60,  85,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

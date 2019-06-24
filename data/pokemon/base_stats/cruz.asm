@@ -1,6 +1,6 @@
 	db CRUZ ; 158
 
-	db  50,  43,  49,  50,  64,  58
+	db  45,  45,  50,  50,  65,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

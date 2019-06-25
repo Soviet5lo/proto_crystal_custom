@@ -3,7 +3,7 @@
 This is a modification of [Pokemon Spaceworld Crystal] (https://github.com/tshadowknight/proto_crystal) by TSK (tshadowknight), made from the [disassembly of Pokemon Crystal] (https://github.com/pret/pokecrystal) by pret.
 
 ## Changes from Spaceworld Crystal
-- Base stats for some spaceworld pokemon have been changed (Belmitt, Gelanla, Likk, Lykwyse, Rayleep, Tangel, Turbann, Twinz, Golppy, Grimey, Meowsy, Numpuff, Puddi, Trifox)
+- Base stats for the spaceworld monsters have been completely redone. (mostly made from pokemon design + movesets in spaceworld, with a few personal touches)
 - Movesets for some spaceworld pokemon have been changed to be more similar to their Spaceworld movesets.
 - Turbann is now an alternate evolution of Shellder: it evolves via Slowpoketail (used as if it were a evolutionary stone).
 - A few wild pokemon location changes.

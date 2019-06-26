@@ -1261,7 +1261,7 @@ GastlyEvosAttacks:
 	db 1, LICK
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 16, POISON_GAS
 	db 21, NIGHT_SHADE
 	db 28, CONFUSE_RAY
 	db 33, DREAM_EATER
@@ -1276,7 +1276,7 @@ HaunterEvosAttacks:
 	db 1, SPITE
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 16, POISON_GAS
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
@@ -1290,7 +1290,7 @@ GengarEvosAttacks:
 	db 1, SPITE
 	db 8, SPITE
 	db 13, MEAN_LOOK
-	db 16, CURSE
+	db 16, POISON_GAS
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER

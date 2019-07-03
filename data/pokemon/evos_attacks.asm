@@ -2343,7 +2343,7 @@ GelanlaEvosAttacks:
 	db 31, MEGA_DRAIN
 	db 34, STUN_SPORE
 	db 39, SLAM
-	db 43, NIGHT_SHADE
+	db 45, NIGHT_SHADE
 	db 46, GROWTH
 	db 51, GIGA_DRAIN
 	db 0 ; no more level-up moves

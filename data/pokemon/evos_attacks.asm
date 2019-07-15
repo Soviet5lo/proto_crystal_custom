@@ -2473,6 +2473,7 @@ GolppyEvosAttacks:
 	db 6, SUPERSONIC
 	db 9, HAZE ; G/S/C Egg move
 	db 12, HORN_ATTACK
+	db 15, BUBBLE ; new move
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
@@ -2620,7 +2621,8 @@ DounoEvosAttacks:
 	db 4, GROWL
 	db 7, PURSUIT
 	db 10, QUICK_ATTACK ; G/S/C Egg move
-	db 14, FURY_ATTACK
+	db 13, FURY_ATTACK
+	db 16, FAINT_ATTACK ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 SunfloraEvosAttacks:
@@ -2871,6 +2873,7 @@ GrimeyEvosAttacks:
 	db 10, ACID ; Spaceworld move
 	db 13, SLUDGE
 	db 16, HAZE ; G/S/C Egg move
+	db 19, MEAN_LOOK ; G/S/C Egg move
 	db 0 ; no more level-up moves
 	
 RemoraidEvosAttacks:

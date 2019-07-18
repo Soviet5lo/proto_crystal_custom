@@ -1,6 +1,6 @@
 	db PANGSHI ; 182
 
-	db  50,  105,  50,  75,  100, 50
+	db  65,  95,  95,  65,  50,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, GHOST ; type

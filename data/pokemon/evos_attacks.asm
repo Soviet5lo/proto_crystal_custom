@@ -2308,28 +2308,27 @@ AmpharosEvosAttacks:
 TrifoxEvosAttacks:
 	db EVOLVE_LEVEL, 13, VULPIX
 	db 0 ; no more evolutions
-	db 1, EMBER
-	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, ROAR
-	db 19, CONFUSE_RAY
-	db 25, SAFEGUARD
-	db 31, FLAMETHROWER
-	db 37, FIRE_SPIN
+	db 1, QUICK_ATTACK
+	db 1, CHARM
+	db 3, TAIL_WHIP
+	db 6, HYPNOSIS ; G/S/C Egg move
+	db 8, EMBER
+	db 10, FORESIGHT ; Spaceworld move
+	db 12, ROAR
 	db 0 ; no more level-up moves
 
 TangelEvosAttacks:
 	db EVOLVE_LEVEL, 22, TANGELA
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
+	db 1, CHARM
 	db 4, SLEEP_POWDER
-	db 10, ABSORB
+	db 7, ABSORB
+	db 10, FLAIL ; G/S/C Egg move
 	db 13, POISONPOWDER
-	db 19, VINE_WHIP
-	db 23, MEGA_DRAIN
-	db 34, STUN_SPORE
-	db 40, SLAM
-	db 46, GROWTH
+	db 16, VINE_WHIP
+	db 19, SWEET_KISS
+	db 22, CONFUSION ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 GelanlaEvosAttacks:
@@ -2469,13 +2468,12 @@ GolppyEvosAttacks:
 	db EVOLVE_LEVEL, 16, GOLDEEN
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, HORN_ATTACK
-	db 18, HORN_DRILL
-	db 29, FURY_ATTACK
-	db 38, WATERFALL
-	db 52, AGILITY
+	db 1, CHARM
+	db 3, TAIL_WHIP
+	db 6, SUPERSONIC
+	db 9, HAZE ; G/S/C Egg move
+	db 12, HORN_ATTACK
+	db 15, BUBBLE ; new move
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
@@ -2553,13 +2551,11 @@ ParasyEvosAttacks:
 	db EVOLVE_LEVEL, 12, PARAS
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 7, STUN_SPORE
-	db 13, POISONPOWDER
-	db 15, SPORE
-	db 25, LEECH_LIFE
-	db 31, SLASH
-	db 37, GROWTH
-	db 43, GIGA_DRAIN
+	db 1, CHARM
+	db 4, STUN_SPORE
+	db 7, LEECH_LIFE
+	db 10, FURY_SWIPES ; Spaceworld move
+	db 12, FALSE_SWIPE ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:
@@ -2621,13 +2617,12 @@ DounoEvosAttacks:
 	db EVOLVE_LEVEL, 16, DODUO
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, GROWL
-	db 9, PURSUIT
+	db 1, CHARM
+	db 4, GROWL
+	db 7, PURSUIT
+	db 10, QUICK_ATTACK ; G/S/C Egg move
 	db 13, FURY_ATTACK
-	db 18, DRILL_PECK
-	db 21, TRI_ATTACK
-	db 25, RAGE	
-	db 37, AGILITY
+	db 16, FAINT_ATTACK ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 SunfloraEvosAttacks:
@@ -2715,13 +2710,11 @@ MeowsyEvosAttacks:
 	db EVOLVE_LEVEL, 14, MEOWTH
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
-	db 11, BITE
-	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 35, SCREECH
-	db 41, FURY_SWIPES
-	db 46, SLASH
+	db 1, CHARM
+	db 4, GROWL
+	db 7, TAIL_WHIP ; Spaceworld move
+	db 10, BITE
+	db 13, HYPNOSIS ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 RinringEvosAttacks:
@@ -2820,14 +2813,13 @@ MinicornEvosAttacks:
 	db EVOLVE_LEVEL, 20, PONYTA
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, CHARM
 	db 4, GROWL
-	db 8, TAIL_WHIP
-	db 13, EMBER
-	db 19, STOMP
-	db 26, FIRE_SPIN
-	db 34, TAKE_DOWN
-	db 43, AGILITY
-	db 53, FIRE_BLAST
+	db 7, TAIL_WHIP
+	db 10, EMBER
+	db 13, QUICK_ATTACK ; G/S/C Egg move
+	db 16, STOMP
+	db 19, DOUBLE_KICK ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 EspeonEvosAttacks:
@@ -2873,15 +2865,15 @@ endc
 GrimeyEvosAttacks:
 	db EVOLVE_LEVEL, 19, GRIMER
 	db 0 ; no more evolutions
-	db 1, POISON_GAS
 	db 1, POUND
-	db 5, HARDEN
-	db 10, DISABLE
-	db 16, SLUDGE
-	db 23, MINIMIZE
-	db 31, SCREECH
-	db 40, ACID_ARMOR
-	db 50, SLUDGE_BOMB
+	db 1, CHARM
+	db 2, POISON_GAS
+	db 4, HARDEN
+	db 7, DISABLE
+	db 10, ACID ; Spaceworld move
+	db 13, SLUDGE
+	db 16, HAZE ; G/S/C Egg move
+	db 19, MEAN_LOOK ; G/S/C Egg move
 	db 0 ; no more level-up moves
 	
 RemoraidEvosAttacks:
@@ -2916,6 +2908,12 @@ GohngEvosAttacks:
 	db EVOLVE_STAT, 15, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, CHARM
+	db 3, FORESIGHT
+	db 5, ROCK_SMASH
+	db 8, BIDE
+	db 11, KARATE_CHOP
+	db 14, COUNTER
 	db 0 ; no more level-up moves
 
 HitmontopEvosAttacks:
@@ -2934,14 +2932,12 @@ HitmontopEvosAttacks:
 PuddiEvosAttacks:
 	db EVOLVE_LEVEL, 13, GROWLITHE
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, ROAR
-	db 9, EMBER
-	db 15, FLAME_WHEEL
-	db 18, LEER
-	db 26, TAKE_DOWN	
-	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 1, TACKLE
+	db 1, CHARM
+	db 4, ROAR
+	db 7, EMBER
+	db 10, QUICK_ATTACK ; Spaceworld move
+	db 13, BITE
 	db 0 ; no more level-up moves
 
 LefmewEvosAttacks:
@@ -3004,17 +3000,13 @@ endc
 
 BallerineEvosAttacks:
 	db EVOLVE_LEVEL, 15, MR__MIME
+	db 1, CONFUSION
+	db 1, CHARM
 	db 1, BARRIER
-	db 6, CONFUSION
-	db 11, ENCORE
-	db 15, SUBSTITUTE	
-	db 18, PSYBEAM
-	db 21, DOUBLESLAP
-	db 26, LIGHT_SCREEN
-	db 26, REFLECT
-	db 31, ENCORE	
-	db 41, BATON_PASS
-	db 46, SAFEGUARD
+	db 4, MIMIC ; G/S/C Egg move
+	db 7, ENCORE
+	db 10, HYPNOSIS ; G/S/C Egg move
+	db 14, SWEET_KISS
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:
@@ -3022,14 +3014,11 @@ SmoochumEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LICK
-	db 9, SWEET_KISS
-	db 13, POWDER_SNOW
-	db 21, CONFUSION
-	db 25, SING
-	db 33, MEAN_LOOK
-	db 37, PSYCHIC_M
-	db 45, PERISH_SONG
-	db 49, BLIZZARD
+	db 1, CHARM
+	db 4, SWEET_KISS
+	db 7, DOUBLESLAP
+	db 10, POWDER_SNOW
+	db 13, LOVELY_KISS ; G/S/C Egg move
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
@@ -3037,26 +3026,23 @@ ElekidEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
-	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
-	db 25, SWIFT
-	db 33, SCREECH
-	db 41, THUNDERBOLT
-	db 49, THUNDER
+	db 1, CHARM
+	db 4, THUNDER_WAVE ; Spaceworld move
+	db 7, THUNDERPUNCH
+	db 10, THUNDERSHOCK ; Spaceworld move
+	db 14, SPARK ; Spaceworld move
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:
 	db EVOLVE_LEVEL, 15, MAGMAR
 	db 0 ; no more evolutions
-	db 1, EMBER
-	db 7, LEER
-	db 13, SMOG
-	db 19, FIRE_PUNCH
-	db 25, SMOKESCREEN
-	db 31, SUNNY_DAY
-	db 37, FLAMETHROWER
-	db 43, CONFUSE_RAY
-	db 49, FIRE_BLAST
+	db 1, SCRATCH ; Spaceworld move
+	db 1, LEER
+	db 1, CHARM
+	db 4, SCREECH ; Egg move
+	db 7, FIRE_PUNCH
+	db 10, SMOG
+	db 13, EMBER
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:

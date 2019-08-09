@@ -16,3 +16,7 @@ This is a modification of [Pokemon Spaceworld Crystal] (https://github.com/tshad
 - Make all of the Spaceworld Pokemon available in the wild.
 - Update trainer rosters to utilize the Spaceworld Pokemon
 - Update events where needed (Sudowoodo -> Belmitt, Shuckle -> Snubull)
+
+## TODO
+- Go over Spaceworld pokemon TMs and change as needed.
+- Check and see if the new egg moves fit.

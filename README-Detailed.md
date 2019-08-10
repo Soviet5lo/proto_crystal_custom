@@ -272,7 +272,7 @@
 		- 7: Thunderpunch
 		- 10: Thundershock (Spaceworld move)
 		- 14: Spark (Spaceworld move)
-	Magby
+	- Magby
 		- 1: Scratch (Spaceworld move)
 		- 1: Leer
 		- 1: Charm

@@ -84,7 +84,7 @@ JohtoWaterWildMons: ; 0x2b11d
 	db 2 percent ; encounter rate
 	db 35, SEAKING
 	db 35, GOLDUCK
-	db 35, GOLDEEN
+	db 45, AQUARIA
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
@@ -166,7 +166,7 @@ JohtoWaterWildMons: ; 0x2b11d
 
 	map_id ROUTE_44
 	db 2 percent ; encounter rate
-	db 25, POLIWAG
+	db 25, REMORAID
 	db 20, POLIWAG
 	db 25, POLIWHIRL
 

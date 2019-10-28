@@ -1045,3 +1045,20 @@ BetaBlank_Blocks:
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+
+SECTION "Map Blocks 4", ROMX
+
+FarawayIslandExterior_Blocks:
+	INCBIN "maps/FarawayIslandExterior.blk"
+	
+FarawayIslandInterior_Blocks:
+	INCBIN "maps/FarawayIslandInterior.blk"
+	
+CeruleanCave1F_Blocks:
+	INCBIN "maps/CeruleanCave1F.blk"
+	
+CeruleanCave2F_Blocks:
+	INCBIN "maps/CeruleanCave2F.blk"
+	
+CeruleanCave1BF_Blocks:
+	INCBIN "maps/CeruleanCave1BF.blk"	

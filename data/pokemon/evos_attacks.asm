@@ -849,6 +849,7 @@ AbraEvosAttacks:
 
 KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
+	db EVOLVE_LEVEL, 36, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
@@ -893,6 +894,7 @@ MachopEvosAttacks:
 
 MachokeEvosAttacks:
 	db EVOLVE_TRADE, -1, MACHAMP
+	db EVOLVE_LEVEL, 40, MACHAMP
 	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
@@ -1008,6 +1010,7 @@ GeodudeEvosAttacks:
 
 GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
+	db EVOLVE_LEVEL, 38, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1270,6 +1273,7 @@ GastlyEvosAttacks:
 
 HaunterEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
+	db EVOLVE_LEVEL, 38, GENGAR
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
@@ -1611,6 +1615,7 @@ HorseaEvosAttacks:
 
 SeadraEvosAttacks:
 	db EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
+	db EVOLVE_LEVEL, 42, KINGDRA
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, SMOKESCREEN
@@ -1814,6 +1819,7 @@ LaprasEvosAttacks:
 
 DittoEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, LYKWYSE
+	db EVOLVE_LEVEL, 28, LYKWYSE
 	db 0 ; no more evolutions
 	db 1, TRANSFORM
 	db 0 ; no more level-up moves
@@ -1884,6 +1890,7 @@ FlareonEvosAttacks:
 
 PorygonEvosAttacks:
 	db EVOLVE_TRADE, UP_GRADE, PORYGON2
+	db EVOLVE_LEVEL, 25, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION2
 	db 1, TACKLE

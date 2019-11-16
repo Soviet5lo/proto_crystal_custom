@@ -36,6 +36,15 @@ UpdateTime:: ; 5a7
 GetClock:: ; 5b7
 ; store clock data in hRTCDayHi-hRTCSeconds
 
+;; kroc - NoRTC patch
+if DEF(NO_RTC)
+;; pull RTC time from the copy in RAM which is being incremented alongside the game timer
+	;;ld hl, hRTCDayHi
+	;;ld de, wNoRTC
+	;;ld bc, 5
+	;;jp CopyBytes
+else
+
 ; enable clock r/w
 	ld a, SRAM_ENABLE
 	ld [MBC3SRamEnable], a
@@ -72,6 +81,8 @@ GetClock:: ; 5b7
 ; unlatch clock / disable clock r/w
 	call CloseSRAM
 	ret
+
+endc
 ; 5e8
 
 
@@ -231,6 +242,16 @@ PanicResetClock:: ; 67e
 SetClock:: ; 691
 ; set clock data from hram
 
+;; kroc - noRTC patch
+if DEF(NO_RTC)
+;; take the data from the copy in RAM that gets saved/loaded in SRAM,
+;; this gets incremented along with the game timer
+	ld hl, hRTCDayHi
+	ld de, wNoRTC
+	ld bc, 5
+	jp CopyBytes
+else
+
 ; enable clock r/w
 	ld a, SRAM_ENABLE
 	ld [MBC3SRamEnable], a
@@ -274,6 +295,8 @@ SetClock:: ; 691
 ; cleanup
 	call CloseSRAM ; unlatch clock, disable clock r/w
 	ret
+
+endc
 ; 6c4
 
 

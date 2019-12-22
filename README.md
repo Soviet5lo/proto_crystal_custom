@@ -18,5 +18,10 @@ This is a modification of [Pokemon Spaceworld Crystal] (https://github.com/tshad
 - Update events where needed (Sudowoodo -> Belmitt, Shuckle -> Snubull)
 
 ## TODO
+- Finish up the No-RTC stuff (adding it to makefile, handle the bug catching contest)
 - Go over Spaceworld pokemon TMs and change as needed.
 - Check and see if the new egg moves fit the revised movesets.
+
+## Quirks
+- Base Stats and Movesets are made assuming Physical/Special split, which isn't in Gen 2.
+
